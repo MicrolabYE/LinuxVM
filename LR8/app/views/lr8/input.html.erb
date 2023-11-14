@@ -1,0 +1,7 @@
+<%= form_tag("/lr8/view", :method => "get") do %>
+    <%= label_tag("Введите количество чисел: ") %> <br/>
+    <%= number_field_tag 'number' %> <br/>
+    <%= label_tag("Введите числа через пробел: ") %> <br/>
+    <%= text_field_tag 'values' %> <br/>
+    <%= submit_tag("Submit") %> <br/>
+<% end %> 
