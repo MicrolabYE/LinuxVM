@@ -1,0 +1,9 @@
+<h1>Number less N with their palindome squeries:</h1>
+
+<pre>
++-----------------+-----------------+
+|       n         |       n*n       |
++-----------------+-----------------+
+<% @result.each do |n| %><div class="row">| <div class="column"></div> | <div class="column"></div> |</div><div class="row">| <div class="column"><%= n %></div> | <div class="column"><%= n*n %></div> |</div><% end %></div>+-----------------+-----------------+
+<div class="row">| <div class="column">count:</div> | <div class="column"><%= @result.length() %></div> |</div>+-----------------+-----------------+
+</pre>

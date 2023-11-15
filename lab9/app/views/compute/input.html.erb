@@ -1,0 +1,8 @@
+<h1>Compute#input</h1>
+
+<%= form_tag("/compute/view", :method => "get") do %>
+    <%= label_tag("N:") %>
+    <%= text_field_tag(:n) %> <br/>
+    <br/>
+    <%= submit_tag("Compute result") %>
+<% end %>
